@@ -4,6 +4,7 @@ using NetCoreV2.DataAccesLayer;
 
 namespace NetCoreV2.Controllers
 {
+    // https://www.roketnot.com/not/1624-net-6-core-web-api-basit-kullanimi
     [Route("api/[controller]")]
     [ApiController]
     public class OgrenciController : ControllerBase
