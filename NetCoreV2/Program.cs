@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using NetCoreV2.DataAccesLayer;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
