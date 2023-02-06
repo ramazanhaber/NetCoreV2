@@ -18,8 +18,7 @@ namespace NetCoreV2.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ad = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     yas = table.Column<int>(type: "int", nullable: false),
-                    alan = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    alan2 = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    alan = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {

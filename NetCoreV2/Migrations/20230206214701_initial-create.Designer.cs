@@ -11,7 +11,7 @@ using NetCoreV2.DataAccesLayer;
 namespace NetCoreV2.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20230206213328_initial-create")]
+    [Migration("20230206214701_initial-create")]
     partial class initialcreate
     {
         /// <inheritdoc />
@@ -37,9 +37,6 @@ namespace NetCoreV2.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("alan")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("alan2")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("yas")
