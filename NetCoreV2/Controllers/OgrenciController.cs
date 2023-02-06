@@ -1,7 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using NetCoreV2.DataAccesLayer;
-
 namespace NetCoreV2.Controllers
 {
     // https://www.roketnot.com/not/1624-net-6-core-web-api-basit-kullanimi
@@ -13,11 +11,9 @@ namespace NetCoreV2.Controllers
         public IActionResult EmployeeList()
         {
             using var c = new Context();
-            var values = c.Ogrenci.ToList();
+            var values = c.Ogrenciler.ToList();
             return Ok(values);
         }
-
-
         [HttpPost]
         public IActionResult EmployeeAdd(Ogrenci employee)
         {

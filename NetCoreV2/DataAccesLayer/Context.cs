@@ -8,6 +8,6 @@ namespace NetCoreV2.DataAccesLayer
         {
             optionsBuilder.UseSqlServer("Data Source=RAMBO3;Initial Catalog=Deneme;User ID=sa;Password=19830126;TrustServerCertificate=True");
         }
-        public DbSet<Ogrenci> Ogrenci { get; set; }
+        public DbSet<Ogrenci> Ogrenciler { get; set; }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
 namespace NetCoreV2.DataAccesLayer
 {
     public class Ogrenci
